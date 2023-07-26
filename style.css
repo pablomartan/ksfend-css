@@ -1,1 +1,39 @@
-/* main stylesheet */
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(fonts/roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+:root {
+    --bg-dark: #1f2937;
+    --bg-btn: #3882f6;
+    --font-size-secondary: 18px;
+    --text-color-secondary: #e5e7eb;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto-Regular', sans-serif;
+}
+
+.btn {
+    background-color: var(--bg-btn);
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.row > * {
+    flex: 1;
+}
