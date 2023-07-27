@@ -29,6 +29,7 @@ nav a:hover {
 
 .header-links {
     display: flex;
+    justify-content: space-evenly;
     margin: auto;
 }
 
