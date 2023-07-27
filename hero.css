@@ -1,6 +1,7 @@
 .main-hero {
     display: flex;
     background-color: var(--bg-dark);
+    padding: 60px 0;
 }
 
 .main-hero-title {
