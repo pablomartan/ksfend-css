@@ -1,3 +1,4 @@
 .main-hero {
     display: flex;
+    background-color: var(--bg-dark);
 }
