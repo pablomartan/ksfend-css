@@ -5,14 +5,14 @@ header {
 
 nav a {
     text-decoration: none;
-    color: var(--text-color-secondary);
-    font-size: var(--font-size-secondary);
+    color: var(--bright-secondary-text);
+    font-size: var(--small-font);
 
     transition: 0.2s;
 }
 
 nav a:hover {
-    color: var(--bg-btn);
+    color: var(--accent-color);
 }
 
 .header-logo {
@@ -22,7 +22,7 @@ nav a:hover {
 .header-logo > h1 {
     margin: auto 10px;
     font-size: 24px;
-    color: #f9faf8;
+    color: var(--bright-primary-text);
 }
 
 .img-logo {
