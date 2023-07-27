@@ -5,6 +5,7 @@
 
 .main-hero-title {
     color: var(--bright-primary-text);
+    font-size: var(--extra-large-font);
 }
 
 .main-hero-subtext {
