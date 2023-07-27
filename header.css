@@ -28,7 +28,7 @@ nav a:hover {
 }
 
 .header-links {
-    text-align: right;
+    margin: auto;
 }
 
 .header-links a {
