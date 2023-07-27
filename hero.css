@@ -6,3 +6,7 @@
 .main-hero-title {
     color: var(--bright-primary-text);
 }
+
+.main-hero-subtext {
+    color: var(--bright-secondary-text);
+}
