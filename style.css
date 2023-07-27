@@ -14,6 +14,8 @@
     --large-font: 36px;
     --medium-font: 24px;
     --small-font: 18px;
+
+    --border-radius: 10px;
 }
 
 * {
@@ -28,7 +30,7 @@ html, body {
 
 .btn {
     background-color: var(--accent-color);
-    border-radius: 10px;
+    border-radius: var(--border-radius);
 }
 
 .container {
