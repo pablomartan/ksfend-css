@@ -17,22 +17,21 @@ nav a:hover {
 
 .header-logo {
     display: flex;
+}
+
+.header-logo > h1 {
+    margin: auto 10px;
     font-size: 24px;
     color: #f9faf8;
-
-    margin: 0;
 }
 
 .img-logo {
-    height: 80px;
+    height: 50px;
+    padding-bottom: 10px;
 }
 
 .header-links {
     display: flex;
     justify-content: space-evenly;
-    margin: auto;
-}
-
-.header-links a {
-
+    margin: auto 0;
 }
