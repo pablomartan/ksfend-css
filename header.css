@@ -22,6 +22,10 @@ nav a:hover {
     margin: 0;
 }
 
+.img-logo {
+    height: 80px;
+}
+
 .header-links {
     text-align: right;
 }
