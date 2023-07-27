@@ -10,6 +10,7 @@
 
 .main-hero-subtext {
     color: var(--bright-secondary-text);
+    font-size: var(--small-font);
 }
 
 .main-hero img {
