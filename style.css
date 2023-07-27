@@ -23,7 +23,7 @@ html, body {
 }
 
 .btn {
-    background-color: var(--bg-btn);
+    background-color: var(--accent-color);
     border-radius: 10px;
 }
 
