@@ -10,3 +10,8 @@
 .main-hero-subtext {
     color: var(--bright-secondary-text);
 }
+
+.main-hero img {
+    max-width: 600px;
+    height: auto;
+}
