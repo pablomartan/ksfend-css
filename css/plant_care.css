@@ -1,4 +1,5 @@
 .article-section {
+    display: flex;
     margin: 90px auto;
 }
 
