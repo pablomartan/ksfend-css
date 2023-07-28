@@ -5,5 +5,5 @@ footer{
     padding: 10px;
 }
 #copyright{
-    font-size: 12px;
+    font-size: var(--small-font);
 }
