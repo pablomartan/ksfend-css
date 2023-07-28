@@ -1,30 +1,40 @@
-.flex-container{
-    display: flex;
-    flex-direction: column;
-}
-
-.flex-container h1 {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 50px;
-}
-
-.container-main{
-    height: 140px;
+.why-plantopia{
+    justify-content: space-between;
+    /* height: 10px; */
     padding: 16px;
-    display: flex;
-    align-items: center;
 }
+
 .item{
-    padding: 150px;
-    padding-left: 150px;
+    max-width: 25%;
 }
 
-.item img{
-    height: 120px;
-    border-radius: 25%;
+.reason-img{
+    height: 150px;
+    border-radius: var(--border-radius);
+    border: 4px solid var(--accent-color);
 }
 
-.item p{
-    display:grid;
+.item .photo1{
+    background-image: url("https://images.ctfassets.net/zma7thmmcinb/3kA9pvWh3VOnh959Jd1D3X/f55a9b0e9730f8ebfaa9d9d5825f2ea6/how-to-use-native-plants-in-your-garden-lead2.jpg");
+    background-size: cover;
+    background-position: center;
+    /* height: 250px; */
+    width: 100%;
+    
 }
+
+.photo2{
+    background-image:url("https://www.hayesgardenworld.co.uk/sites/default/files/styles/blog_main_image/public/images/headers/succulent_header_oct21.jpg?itok=fADRIEG-") ;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.photo3{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCBPLAA7GyXWmqAsM1IVCxRc_8mr8M83lYew&usqp=CAU") ;
+    background-position: center;
+    background-size: cover;
+    /* height: 120px; */
+    
+}
+
