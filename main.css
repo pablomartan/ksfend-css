@@ -1,6 +1,5 @@
 .why-plantopia{
     justify-content: space-between;
-    /* height: 10px; */
     padding: 16px;
 }
 
@@ -15,26 +14,22 @@
 }
 
 .item .photo1{
-    background-image: url("https://images.ctfassets.net/zma7thmmcinb/3kA9pvWh3VOnh959Jd1D3X/f55a9b0e9730f8ebfaa9d9d5825f2ea6/how-to-use-native-plants-in-your-garden-lead2.jpg");
+    background-image: url("https://images.pexels.com/photos/2560900/pexels-photo-2560900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
     background-position: center;
-    /* height: 250px; */
     width: 100%;
-    
 }
 
 .photo2{
-    background-image:url("https://www.hayesgardenworld.co.uk/sites/default/files/styles/blog_main_image/public/images/headers/succulent_header_oct21.jpg?itok=fADRIEG-") ;
+    background-image:url("https://cdn.pixabay.com/photo/2017/02/13/15/55/mentor-2062999_1280.png") ;
     background-size: cover;
     background-position: center;
 
 }
 
 .photo3{
-    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCBPLAA7GyXWmqAsM1IVCxRc_8mr8M83lYew&usqp=CAU") ;
+    background-image:url("https://cdn.pixabay.com/photo/2014/01/18/01/02/business-247255_1280.jpg") ;
     background-position: center;
     background-size: cover;
-    /* height: 120px; */
-    
 }
 
