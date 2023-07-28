@@ -1,0 +1,17 @@
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 20px 0;
+}
+
+.quote-section p:first-child {
+    font-family: 'Roboto-LightItalic', sans-serif;
+    color: #1f2937;
+}
+
+.quote {
+    font-size: 36px;
+}
+
+.quote-name {
+    font-size: 24px;
+}
