@@ -19,6 +19,9 @@
     min-width: 300px;
     height: 300px;
     margin: 50px;
+    background-image: url(../img/test.jpg);
+    background-size: cover;
+    background-position: bottom;
 }
 
 .article-section:nth-child(even) {
