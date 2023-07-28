@@ -1,3 +1,7 @@
+.article-section {
+    margin: 90px auto;
+}
+
 .article-section h2 {
     font-size: var(--large-font);
 }
