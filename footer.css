@@ -1,0 +1,9 @@
+footer{
+    background-color: var(--bg-dark);
+    color: var(--bright-primary-text);
+    text-align: center;
+    padding: 10px;
+}
+#copyright{
+    font-size: 12px;
+}

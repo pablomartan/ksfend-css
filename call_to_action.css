@@ -1,0 +1,21 @@
+.call-to-action{
+    background-color: var(--accent-color);
+    margin: 60px;
+    border-radius: 12px;
+    color: var(--bright-secondary-text);
+    
+}
+.info{
+    padding: 10px;
+}
+
+
+button{
+    background-color:var(--accent-color);
+    border: 1px solid var(--bright-secondary-text);
+    border-radius: 27px;
+    color: var(--bright-secondary-text);
+    
+}
+
+
