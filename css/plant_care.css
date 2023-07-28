@@ -16,3 +16,7 @@
     height: 300px;
     margin: 50px;
 }
+
+.article-section:nth-child(even) {
+    flex-direction: row-reverse;
+}
