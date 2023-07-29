@@ -31,10 +31,16 @@ html, body {
 .btn {
     background-color: var(--accent-color);
     border-radius: var(--border-radius);
+    border: 0;
+    width: 100px;
+    max-width: 100px;
+    height: 30px;
+    font-weight: bold;
+    color: var(--bright-primary-text);
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
