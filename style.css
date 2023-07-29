@@ -1,6 +1,19 @@
 @font-face {
-    font-family: 'Roboto-Regular';
+    font-family: 'Roboto';
     src: url(fonts/roboto/Roboto-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/roboto/Roboto-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/roboto/Roboto-Black.ttf) format('truetype');
+    font-weight: 900;
 }
 
 @font-face {
@@ -30,16 +43,22 @@
 html, body {
     padding: 0;
     margin: 0;
-    font-family: 'Roboto-Regular', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn {
     background-color: var(--accent-color);
     border-radius: var(--border-radius);
+    border: 0;
+    width: 100px;
+    max-width: 100px;
+    height: 30px;
+    font-weight: bold;
+    color: var(--bright-primary-text);
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
