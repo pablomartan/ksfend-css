@@ -1,7 +1,10 @@
 .main-hero {
-    display: flex;
     background-color: var(--bg-dark);
     padding: 60px 0;
+}
+
+.main-hero .container {
+    gap: 20px;
 }
 
 .main-hero-title {
