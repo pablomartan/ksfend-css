@@ -1,13 +1,39 @@
 @font-face {
-    font-family: 'Roboto-Regular';
+    font-family: 'Roboto';
     src: url(fonts/roboto/Roboto-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/roboto/Roboto-Bold.ttf) format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/roboto/Roboto-Black.ttf) format('truetype');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url(fonts/roboto/Roboto-LightItalic.ttf) format('truetype');
 }
 
 :root {
     --bg-dark: #1f2937;
-    --bg-btn: #3882f6;
-    --font-size-secondary: 18px;
-    --text-color-secondary: #e5e7eb;
+    --accent-color: #3882f6;
+    --bright-primary-text: #f9faf8;
+    --bright-secondary-text: #e5e7eb;
+    --dark-text: #1f2937;
+
+    --extra-large-font: 48px;
+    --large-font: 36px;
+    --medium-font: 24px;
+    --small-font: 18px;
+
+    --border-radius: 10px;
 }
 
 * {
@@ -17,15 +43,26 @@
 html, body {
     padding: 0;
     margin: 0;
-    font-family: 'Roboto-Regular', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn {
-    background-color: var(--bg-btn);
-    border-radius: 10px;
+    background-color: var(--accent-color);
+    border-radius: var(--border-radius);
+    border: 0;
+    width: 100px;
+    max-width: 100px;
+    height: 30px;
+    font-weight: bold;
+    color: var(--bright-primary-text);
 }
 
 .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-sm {
     max-width: 900px;
     margin: 0 auto;
 }
@@ -36,4 +73,20 @@ html, body {
 
 .row > * {
     flex: 1;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.pe-2 {
+    padding-right: 1rem;
+}
+
+.ps-2 {
+    padding-left: 1rem;
 }
