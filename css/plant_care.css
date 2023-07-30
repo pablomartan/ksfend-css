@@ -30,24 +30,24 @@
     font-size: var(--small-font);
 }
 
-.article-section {
+.card {
     display: flex;
     margin: 90px auto;
 }
 
-.article-section h2 {
+.card-section h2 {
     font-size: var(--large-font);
 }
 
-.article-text {
+.card-text {
     margin: auto 0;
 }
 
-.article-text p {
+.card-text p {
     line-height: 1.5rem;
 }
 
-.article-pic {
+.card-pic {
     min-width: 300px;
     height: 300px;
     margin: 50px;
@@ -55,7 +55,7 @@
     background-position: bottom;
 }
 
-.article-section:nth-child(even) {
+.card:nth-child(even) {
     flex-direction: row-reverse;
 }
 
