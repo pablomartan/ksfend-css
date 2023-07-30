@@ -35,3 +35,7 @@ nav a:hover {
     justify-content: space-evenly;
     margin: auto 0;
 }
+
+.header-links .active {
+    color: var(--accent-color);
+}
