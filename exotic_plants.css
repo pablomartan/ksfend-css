@@ -1,0 +1,61 @@
+.hero {
+    background-image: url('./img/exotic_plants.jpg');
+    background-size: cover;
+
+    height: 700px;
+}
+
+.hero-overlay {
+    backdrop-filter: blur(5px);
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    color: var(--bright-primary-text);
+    text-align: right;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.hero-overlay h1 {
+    font-size: var(--extra-large-font);
+    margin-top: 0;
+}
+
+.hero-overlay p {
+    font-size: var(--large-font);
+}
+
+.plants {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.image-card {
+    font-size: var(--medium-font);
+    background-color: var(--bg-dark);
+    color: var(--bright-secondary-text);
+    border-radius: var(--border-radius);
+    margin: 50px 0;
+    padding: 40px;
+
+    display: flex;
+    align-items: center;
+}
+
+.image-card img {
+    border-radius: var(--border-radius);
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+@media(max-width: 1200px) {
+    .plants {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
