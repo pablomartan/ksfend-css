@@ -25,6 +25,43 @@
     flex-direction: column;
 }
 
+/* SECOND SECTION  */
+
+.why-plantopia {
+    display: flex;
+    flex-direction: column;
+}
+
+.why-plantopia h2 {
+    text-align: center;
+    font-size: 36px;
+}
+
+.why-plantopia section {
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+}
+
+.item p {
+    text-align: center;
+}
+
+.reason-img {
+    height: 200px;
+    width: 200px;
+    border-radius: var(--border-radius);
+    border: 4px solid var(--accent-color);
+}
+
+/* QUOTE SECTION */
+
 .quote-section {
     background-color: #e5e7eb;
     padding: 20px 0;
@@ -42,3 +79,4 @@
 .quote-name {
     font-size: 24px;
 }
+
