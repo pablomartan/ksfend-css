@@ -40,6 +40,16 @@
 .card {
     display: flex;
     margin: 90px auto;
+    font-size: var(--medium-font);
+    border-radius: var(--border-radius);
+    color: inherit;
+    padding: 40px;
+    align-items: center;
+}
+
+.plants .card {
+    background-color: var(--bg-dark);
+    color: var(--bright-secondary-text);
 }
 
 .card-section h2 {
@@ -59,6 +69,7 @@ img.card-pic {
 }
 
 .card-pic {
+    border-radius: var(--border-radius);
     min-width: 300px;
     height: 300px;
     margin: 50px;
