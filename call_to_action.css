@@ -6,6 +6,7 @@
     border-radius: 12px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .call-to-action button {
@@ -15,6 +16,11 @@
     border: 1px solid var(--bright-secondary-text);
     border-radius: 4px;
     color: var(--bright-secondary-text);
+}
+
+.info{
+    width: 66%;
+
 }
 
 .info h3 {
