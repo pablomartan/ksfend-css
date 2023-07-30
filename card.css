@@ -1,0 +1,82 @@
+.hero {
+    height: 400px;
+}
+
+.exotic {
+    background-image: url('./img/exotic_plants.jpg');
+    background-size: cover;
+}
+
+.plant-care {
+    background-image: url('./img/plant-care-hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-overlay {
+    backdrop-filter: blur(5px);
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    color: var(--bright-primary-text);
+    text-align: right;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.hero-overlay h2 {
+    font-size: var(--extra-large-font);
+    margin-top: 0;
+}
+
+.hero-overlay p {
+    font-size: var(--small-font);
+}
+
+.card {
+    display: flex;
+    margin: 90px auto;
+    font-size: var(--medium-font);
+    border-radius: var(--border-radius);
+    color: inherit;
+    padding: 40px;
+    align-items: center;
+}
+
+.plants .card {
+    background-color: var(--bg-dark);
+    color: var(--bright-secondary-text);
+}
+
+.card-section h2 {
+    font-size: var(--large-font);
+}
+
+.card-text {
+    margin: auto 0;
+}
+
+.card-text p {
+    line-height: 1.5rem;
+}
+
+img.card-pic {
+    object-fit: cover;
+}
+
+.card-pic {
+    border-radius: var(--border-radius);
+    min-width: 300px;
+    height: 300px;
+    margin: 50px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card:nth-child(even) {
+    flex-direction: row-reverse;
+}

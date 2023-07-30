@@ -44,6 +44,7 @@ html, body {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    color: var(--dark-text);
 }
 
 .btn {
@@ -89,4 +90,87 @@ html, body {
 
 .ps-2 {
     padding-left: 1rem;
+}
+
+header {
+    background-color: var(--bg-dark);
+    padding: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--bright-secondary-text);
+    font-size: var(--small-font);
+
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: var(--accent-color);
+}
+
+.header-logo {
+    display: flex;
+}
+
+.header-logo > h1 {
+    margin: auto 10px;
+    font-size: 24px;
+    color: var(--bright-primary-text);
+}
+
+.img-logo {
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto 0;
+}
+
+.header-links .active {
+    color: var(--accent-color);
+}
+
+footer {
+    background-color: var(--bg-dark);
+    color: var(--bright-primary-text);
+    text-align: center;
+    padding: 10px;
+}
+
+#copyright {
+    font-size: var(--small-font);
+}
+
+.call-to-action {
+    background-color: var(--accent-color);
+    color: var(--bright-secondary-text);
+    margin: 60px;
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.call-to-action button {
+    width: 25%;
+    margin: 10px;
+    background-color: var(--accent-color);
+    border: 1px solid var(--bright-secondary-text);
+    border-radius: 4px;
+    color: var(--bright-secondary-text);
+}
+
+.info h3 {
+    margin-bottom: 0;
+    font-size: var(--medium-font);
+}
+
+.info p {
+    margin-top: 0;
+    font-size: var(--small-font);
+    padding-right: 30px;
 }
