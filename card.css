@@ -1,0 +1,112 @@
+.hero {
+    height: 400px;
+}
+
+.exotic {
+    background-image: url('./img/exotic_plants.jpg');
+    background-size: cover;
+}
+
+.plant-care {
+    background-image: url('./img/plant-care-hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-overlay {
+    backdrop-filter: blur(5px);
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    color: var(--bright-primary-text);
+    text-align: right;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.hero-overlay h2 {
+    font-size: var(--extra-large-font);
+    margin-top: 0;
+}
+
+.hero-overlay p {
+    font-size: var(--small-font);
+}
+
+.card {
+    display: flex;
+    margin: 90px auto;
+}
+
+.card-section h2 {
+    font-size: var(--large-font);
+}
+
+.card-text {
+    margin: auto 0;
+}
+
+.card-text p {
+    line-height: 1.5rem;
+}
+
+img.card-pic {
+    object-fit: cover;
+}
+
+.card-pic {
+    min-width: 300px;
+    height: 300px;
+    margin: 50px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.card:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.plant-care-pic-1 {
+    background-image: url('./img/plant-care-1.jpg');
+}
+
+.plant-care-pic-2 {
+    background-image: url('./img/plant-care-2.jpg');
+}
+
+.plant-care-pic-3 {
+    background-image: url('./img/plant-care-3.jpg');
+    background-position: top;
+}
+
+.plant-care-pic-4 {
+    background-image: url('./img/plant-care-4.jpg');
+}
+
+.plant-care-pic-5 {
+    background-image: url('./img/plant-care-5.jpg');
+}
+
+.plant-care-pic-6 {
+    background-image: url('./img/plant-care-6.jpg');
+}
+
+.plant-care-pic-7 {
+    background-image: url('./img/plant-care-7.jpg');
+}
+
+.plant-care-pic-8 {
+    background-image: url('./img/plant-care-8.jpg');
+}
+
+.plant-care-pic-9 {
+    background-image: url('./img/plant-care-9.jpg');
+}
+
+.plant-care-pic-10 {
+    background-image: url('./img/plant-care-10.jpg');
+}
