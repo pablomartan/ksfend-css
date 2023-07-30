@@ -1,3 +1,35 @@
+.hero {
+    background-image: url('../img/plant-care-hero.jpg');
+    background-size: cover;
+    background-position: center;
+
+    height: 400px;
+}
+
+.hero-overlay {
+    backdrop-filter: blur(5px);
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    color: var(--bright-primary-text);
+    text-align: right;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.hero-overlay h2 {
+    font-size: var(--extra-large-font);
+    margin-top: 0;
+}
+
+.hero-overlay p {
+    font-size: var(--small-font);
+}
+
 .article-section {
     display: flex;
     margin: 90px auto;
