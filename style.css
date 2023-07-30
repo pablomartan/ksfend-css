@@ -60,15 +60,21 @@ html, body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .container-sm {
     max-width: 900px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .row {
     display: flex;
+}
+
+.row.wrap {
+    flex-wrap: wrap;
 }
 
 .row > * {

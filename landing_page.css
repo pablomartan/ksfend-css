@@ -1,5 +1,4 @@
 .main-hero {
-    display: flex;
     background-color: var(--bg-dark);
     padding: 60px 0;
 }
@@ -12,17 +11,17 @@
 .main-hero-subtext {
     color: var(--bright-secondary-text);
     font-size: var(--small-font);
+    padding-right: 1rem;
 }
 
 .main-hero img {
-    max-width: 600px;
-    height: auto;
-    margin: auto;
+    width: 100%;
+    padding-top: 1rem;
+    margin: auto 0;
 }
 
-.main-hero-text {
-    display: flex;
-    flex-direction: column;
+.main-hero figure {
+    margin: 0;
 }
 
 .quote-section {
