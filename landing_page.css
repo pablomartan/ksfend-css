@@ -4,6 +4,10 @@
     padding: 60px 0;
 }
 
+.main-hero .container {
+    gap: 10px;
+}
+
 .main-hero-title {
     color: var(--bright-primary-text);
     font-size: var(--extra-large-font);
@@ -15,8 +19,13 @@
 }
 
 .main-hero img {
-    max-width: 600px;
-    height: auto;
+    width: 100%;
+    max-height: 300px;
+    margin: auto;
+    object-fit: cover;
+}
+
+.main-hero-img {
     margin: auto;
 }
 
