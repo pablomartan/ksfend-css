@@ -97,6 +97,10 @@
 }
 
 @media (max-width: 899px) {
+    .quote-section {
+        padding: 80px 20px;
+    }
+
     .item {
         max-width: unset;
     }
