@@ -185,4 +185,12 @@ footer {
         flex-direction: column;
         justify-content: center;
     }
+
+    footer div {
+        flex-wrap: wrap;
+    }
+
+    footer a {
+        width: 80%;
+    }
 }
