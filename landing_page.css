@@ -99,3 +99,9 @@
         flex-wrap: wrap;
     }
 }
+
+@media (max-width: 899px) {
+    .item {
+        max-width: unset;
+    }
+}
