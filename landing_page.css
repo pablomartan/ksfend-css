@@ -90,3 +90,8 @@
     font-size: 24px;
 }
 
+@media (max-width: 599px) {
+    .item {
+        max-width: unset;
+    }
+}
