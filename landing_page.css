@@ -75,7 +75,7 @@
     margin-top: 80px;
 }
 
-.quote-section p:first-child {
+.quote-section blockquote {
     font-family: 'Roboto-LightItalic', sans-serif;
     color: #1f2937;
 }
