@@ -6,6 +6,11 @@
     background-image: url('./img/exotic_plants.jpg');
     background-size: cover;
 }
+.hanging_plants {
+    background-image: url('./Hanging_img/hanging_plats.jpg');
+    background-size: cover;
+    background-position: center;
+}
 
 .plant-care {
     background-image: url('./img/plant-care-hero.jpg');
