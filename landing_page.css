@@ -1,5 +1,4 @@
 .main-hero {
-    display: flex;
     background-color: var(--bg-dark);
     padding: 60px 0;
 }
@@ -16,12 +15,14 @@
 .main-hero-subtext {
     color: var(--bright-secondary-text);
     font-size: var(--small-font);
+    padding-right: 1rem;
 }
 
 .main-hero img {
     width: 100%;
+    padding-top: 1rem;
+    margin: auto 0;
     max-height: 300px;
-    margin: auto;
     object-fit: cover;
 }
 
@@ -29,16 +30,12 @@
     margin: auto;
 }
 
-.main-hero-text {
-    display: flex;
-    flex-direction: column;
-}
-
 /* SECOND SECTION  */
 
 .why-plantopia {
     display: flex;
     flex-direction: column;
+    margin-top: 80px;
 }
 
 .why-plantopia h2 {
@@ -73,13 +70,18 @@
 /* QUOTE SECTION */
 
 .quote-section {
-    background-color: #e5e7eb;
-    padding: 20px 0;
+    background-color: var(--bg-light);
+    padding: 80px;
+    margin-top: 80px;
 }
 
 .quote-section p:first-child {
     font-family: 'Roboto-LightItalic', sans-serif;
     color: #1f2937;
+}
+
+.quote-section div {
+    margin: auto;
 }
 
 .quote {
@@ -90,3 +92,28 @@
     font-size: 24px;
 }
 
+@media (max-width: 899px) {
+    .main-hero {
+        padding: 60px 20px;
+    }
+
+    .main-hero-text {
+        margin-bottom: 10px;
+    }
+
+    .main-hero-text .btn {
+        align-self: center;
+    }
+
+    .quote-section {
+        padding: 80px 20px;
+    }
+
+    .item {
+        max-width: unset;
+    }
+
+    .why-plantopia section {
+        flex-wrap: wrap;
+    }
+}

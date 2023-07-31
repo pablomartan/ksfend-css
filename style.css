@@ -23,6 +23,7 @@
 
 :root {
     --bg-dark: #1f2937;
+    --bg-light: #e5e7eb;
     --accent-color: #3882f6;
     --bright-primary-text: #f9faf8;
     --bright-secondary-text: #e5e7eb;
@@ -52,7 +53,7 @@ html, body {
     border-radius: var(--border-radius);
     border: 0;
     width: 100px;
-    max-width: 100px;
+    min-width: 100px;
     height: 30px;
     font-weight: bold;
     color: var(--bright-primary-text);
@@ -61,15 +62,21 @@ html, body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .container-sm {
     max-width: 900px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .row {
     display: flex;
+}
+
+.row.wrap {
+    flex-wrap: wrap;
 }
 
 .row > * {
@@ -157,11 +164,8 @@ footer {
 }
 
 .call-to-action button {
-    width: 25%;
     margin: 10px;
-    background-color: var(--accent-color);
     border: 1px solid var(--bright-secondary-text);
-    border-radius: 4px;
     color: var(--bright-secondary-text);
 }
 
@@ -174,4 +178,11 @@ footer {
     margin-top: 0;
     font-size: var(--small-font);
     padding-right: 30px;
+}
+
+@media (max-width: 599px) {
+    .container.row, .call-to-action {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
