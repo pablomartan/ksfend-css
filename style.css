@@ -52,7 +52,7 @@ html, body {
     border-radius: var(--border-radius);
     border: 0;
     width: 100px;
-    max-width: 100px;
+    min-width: 100px;
     height: 30px;
     font-weight: bold;
     color: var(--bright-primary-text);
@@ -156,11 +156,8 @@ footer {
 }
 
 .call-to-action button {
-    width: 25%;
     margin: 10px;
-    background-color: var(--accent-color);
     border: 1px solid var(--bright-secondary-text);
-    border-radius: 4px;
     color: var(--bright-secondary-text);
 }
 
