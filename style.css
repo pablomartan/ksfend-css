@@ -171,3 +171,10 @@ footer {
     font-size: var(--small-font);
     padding-right: 30px;
 }
+
+@media (max-width: 599px) {
+    .container.row, .call-to-action {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
