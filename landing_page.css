@@ -90,18 +90,12 @@
     font-size: 24px;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 899px) {
     .item {
         max-width: unset;
     }
 
     .why-plantopia section {
         flex-wrap: wrap;
-    }
-}
-
-@media (max-width: 899px) {
-    .item {
-        max-width: unset;
     }
 }
