@@ -67,6 +67,7 @@
     width: 150px;
     border-radius: var(--border-radius);
     border: 4px solid var(--accent-color);
+    object-fit: cover;
 }
 
 /* QUOTE SECTION */
