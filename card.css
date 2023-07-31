@@ -84,4 +84,5 @@ img.card-pic {
 
 .card:nth-child(even) {
     flex-direction: row-reverse;
+    
 }
