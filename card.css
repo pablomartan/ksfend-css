@@ -6,6 +6,11 @@
     background-image: url('./img/exotic_plants.jpg');
     background-size: cover;
 }
+.hanging_plants {
+    background-image: url('./img/hanging_plants.jpg');
+    background-size: cover;
+    background-position: center;
+}
 
 .plant-care {
     background-image: url('./img/plant-care-hero.jpg');
@@ -79,6 +84,7 @@ img.card-pic {
 
 .card:nth-child(even) {
     flex-direction: row-reverse;
+    
 }
 
 @media (max-width: 599px) {
