@@ -142,15 +142,15 @@ nav a:hover {
 }
 
 footer {
+    display: flex;
     background-color: var(--bg-dark);
     color: var(--bright-primary-text);
-    text-align: center;
     padding: 10px;
 }
 
 #copyright {
+    align-self: start;
     font-size: var(--small-font);
-    padding-left: 40px;
 }
 
 .call-to-action {
@@ -180,17 +180,28 @@ footer {
     padding-right: 30px;
 }
 
+footer div:last-child {
+    margin: auto;
+    width: 66%;
+    justify-content: space-evenly;
+}
+
 @media (max-width: 599px) {
     .container.row, .call-to-action {
         flex-direction: column;
         justify-content: center;
     }
-
-    footer div {
-        flex-wrap: wrap;
+    
+    footer {
+        flex-direction: column;
     }
 
-    footer a {
-        width: 80%;
+    footer div:last-child {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    footer .navigation-links {
+        gap: 12px;
     }
 }
