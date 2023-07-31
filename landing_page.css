@@ -23,16 +23,11 @@
     padding-top: 1rem;
     margin: auto 0;
     max-height: 300px;
-    margin: auto;
     object-fit: cover;
 }
 
 .main-hero-img {
     margin: auto;
-}
-
-.main-hero figure {
-    margin: 0;
 }
 
 /* SECOND SECTION  */
@@ -89,4 +84,3 @@
 .quote-name {
     font-size: 24px;
 }
-
