@@ -124,13 +124,13 @@ nav a:hover {
     padding-bottom: 10px;
 }
 
-.header-links {
+.navigation-links {
     display: flex;
     justify-content: space-evenly;
     margin: auto 0;
 }
 
-.header-links .active {
+.navigation-links .active {
     color: var(--accent-color);
 }
 
@@ -143,6 +143,7 @@ footer {
 
 #copyright {
     font-size: var(--small-font);
+    padding-left: 40px;
 }
 
 .call-to-action {
