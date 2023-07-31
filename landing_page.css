@@ -94,4 +94,8 @@
     .item {
         max-width: unset;
     }
+
+    .why-plantopia section {
+        flex-wrap: wrap;
+    }
 }
