@@ -80,3 +80,19 @@ img.card-pic {
 .card:nth-child(even) {
     flex-direction: row-reverse;
 }
+
+@media (max-width: 599px) {
+    .hero {
+        height: auto;
+    }
+}
+
+@media (max-width: 899px) {
+    .card, .card:nth-child(2n) {
+        flex-direction: column;
+    }
+
+    .card-pic {
+        width: 100%;
+    }
+}
